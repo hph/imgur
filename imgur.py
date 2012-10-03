@@ -62,15 +62,15 @@ def process_args():
     #                    help='''show information about program execution''')
     #parser.add_argument('-q', '--quiet', action='store_true',
     #                    help='''do not show error messages''')
+    parser.add_argument('-c', '--clipboard', action='store_true',
+                        help='''save the imgur url to the clipboard''')
+    parser.add_argument('-n', '--no-upload', action='store_true',
+                        help='''do not upload to imgur''')
     parser.add_argument('-s', '--sleep', type=int, default=3,
                         help='''number of seconds to wait before taking a
                         screenshot (the default is 3)''')
     parser.add_argument('-o', '--output',
                         help='''output screenshot name''')
-    parser.add_argument('-c', '--clipboard', action='store_true',
-                        help='''save the imgur url to the clipboard''')
-    parser.add_argument('-n', '--no-upload', action='store_true',
-                        help='''do not upload to imgur''')
     parser.add_argument('image', nargs='?',
                         help='''image to upload''')
     return parser.parse_args()
