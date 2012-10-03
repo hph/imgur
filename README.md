@@ -13,4 +13,4 @@ them being:
 ---
 
 Head over to the [documentation page](http://github.com/docs/imgur) for more
-details.
+details and setup instructions.
