@@ -12,5 +12,5 @@ them being:
 
 ---
 
-Head over to the [documentation page](http://github.com/docs/imgur) for more
-details and setup instructions.
+Head over to the [documentation page](http://haukurpallh.github.com/docs/imgur)
+for more details and setup instruction.
