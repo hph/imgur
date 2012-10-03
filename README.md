@@ -9,6 +9,7 @@ them being:
 * `-c`: save the output to the clipboard
 * `-s`: specify the time interval (`-s 0` takes a screenshot instantly)
 * `-n`: do not upload the image
+
 You can also specify an image (`imgur image_name`) to upload an existing image
 instead of taking a screenshot.
 
