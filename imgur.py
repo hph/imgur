@@ -11,7 +11,7 @@ from xml.dom import minidom
 
 
 def shoot(name, time):
-    '''Take screenshot of all the screen after three seconds.'''
+    '''Take screenshot of all the screen after 'time' seconds.'''
     screen = gtk.gdk.get_default_root_window()
     size = screen.get_size()
     pb = gtk.gdk.Pixbuf(gtk.gdk.COLORSPACE_RGB, False, 8, size[0], size[1])
@@ -81,9 +81,9 @@ def main():
     if not args.image:
         if not args.output:
             image = 'screen-%s.png ' % strftime('%d.%m.%Y-%H.%M.%S', gmtime())
-            shoot(image, args.sleep)
         else:
             image = args.output
+        shoot(image, args.sleep)
     else:
         image = args.image
     if not args.no_upload:
