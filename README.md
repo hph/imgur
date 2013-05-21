@@ -15,5 +15,5 @@ instead of taking a screenshot.
 
 ---
 
-Head over to the [documentation page](http://haukurpallh.github.com/docs/imgur)
+Head over to the [documentation page](http://hph.github.com/docs/imgur)
 for more details and setup instructions.
